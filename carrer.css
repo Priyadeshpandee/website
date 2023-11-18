@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+	--bg-color: #00203fff;
+	--second-bg-color: #112e42;
+	--text-color:#ededed;
+	--main-color: #b3f33d;
+ }
+ html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+ }
+
+
+
+
+ 
+      /*--------- Heading----------- */
+      
+ .headerall{
+	/* border: 1px solid #24262b; */
+	height: 150px;
+	margin-top: 70px;
+	margin-bottom: 80px;
+	background-color: rgb(131, 204, 221, 0.4);
+	
+}
+
+.header-container{
+             /* border: 2px solid green; */
+			 max-width: 700px;
+			 margin: auto;
+			 height: 150px;
+			 display: flex;
+			 align-items: center;
+			 justify-content: center;
+}
+
+.header-container h1{
+	font-size: 5.2em;
+}
+
+.headerall h2{
+	text-align: center;
+    font-size: 25px;
+}
+
+.headerall h2 a{
+	color: #000;
+	text-decoration: none;
+}
+
+
+ /*-------------- Carrers -------------------*/
+/* 
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+
+.education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.education-row .education-column{
+    flex: 1 1 30rem;
+}
+
+.education-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+    color: var(--main-color);
+}
+
+.education-column .education-box{
+    border-left: .2rem dotted #dbbe3d;
+}
+
+.education-box{
+    margin-bottom: 100px;
+}
+
+
+.education-box .education-content{
+    height: 800px;
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 20px;
+}
+
+.education-box .education-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: #dbbe3d;
+    border-radius: 50%;
+}
+
+.education-content .content{
+position: relative;
+padding: 1.5rem;
+border: .2rem solid #dbbe3d;
+border-radius: .6rem;
+margin-bottom: 9rem;
+overflow: hidden;
+}
+
+.education-content .content::before{
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 0;
+     height: 100%;
+     background:rgba(0, 0, 0, 0.2);
+     z-index: -1;
+     transition: .5s;
+}
+
+.education-content .content:hover::before{
+     width: 100%;
+}
+
+.content h2{
+    font-size:2.5rem ;
+    margin-bottom: 20px ;
+    font-weight: 800;
+}
+
+
+.education-content .content h3{
+    font-size: 2rem;
+    margin-bottom: 10px ;
+}
+
+.content h4{
+    font-size: 1.8rem;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.education-content .content p{
+    font-size: 1.7rem;
+    padding-top: .5rem;
+} */
+
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.education-row .education-column{
+    flex: 1 1 40rem;
+}
+
+
+.education-column .education-box{
+    border-left: .2rem dotted #dbbe3d;;
+}
+
+.education-box .education-content{
+    position: relative;
+    padding-left: 2rem;
+}
+
+.education-box .education-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: #dbbe3d;;
+    border-radius: 50%;
+}
+
+.education-content .content{
+position: relative;
+padding: 1.5rem;
+border: .2rem solid #dbbe3d;;
+border-radius: .6rem;
+margin-bottom: 2rem;
+overflow: hidden;
+}
+
+.education-content .content::before{
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 0;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.2);
+     z-index: -1;
+     transition: .5s;
+}
+
+.education-content .content:hover::before{
+     width: 100%;
+}
+
+.education-content .content h2{
+    font-size: 2.5rem;
+ }
+
+.education-content .content h4{
+   font-size: 2rem;
+}
+
+.education-content .content h3{
+    font-size: 2rem;
+}
+
+.education-content .content p{
+    font-size: 1.5rem;
+    padding-top: .5rem;
+}
+
+
+
+/* ---------------------BUTTON ---------------------*/
+
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 13px 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 40px 3px 6px;
+    text-align: center;
+    border: 2px solid rgb(12, 11, 11);
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+
+
+.hb-fill-middle-rev-bg::before {
+    position: absolute;
+    content: "";
+    background: #82ccdd;
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: auto auto 0px 0px;
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+} 
+
+
+.hb-fill-middle-rev-bg:hover::before {
+    width: 100%;
+    height: 0%;
+    opacity: 1;
+} 
+
+
+.hb-fill-middle-rev-bg:hover {
+    background: #000;
+    color:  #82ccdd;
+    transition: all 0.3s ease 0s;
+    border: 2px solid #82ccdd ;
+} 
+
+
+.hb-fill-middle-rev-bg::after {
+    position: absolute;
+    content: "";
+    background: #82ccdd;
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+} 
+
+
+.hb-fill-middle-rev-bg:hover::after {
+    height: 0px;
+} 
